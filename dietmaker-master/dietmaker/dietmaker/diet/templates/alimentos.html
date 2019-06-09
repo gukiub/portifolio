@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<body>
+<!-- Menu -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{% url 'dietas'%}"><img src="{% static 'media/logo.png' %}" width="120px"
+                                                            height="56"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: 16px;" href="{% url 'dietas' %}">Dietas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 16px;" href="{% url 'alimentos' %}">Alimentos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                        <a class="nav-link" style="font-size: 16px;">{{ user }}</a>
+                    </li>
+                <span class="navbar-text">
+                        |
+                    </span>
+
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: 16px;" href="{% url 'home' %}">Logout</a>
+                </li>
+            </ul>
+        </div>
+        </button>
+    </nav>
+</header>
+<!-- Final do menu -->
+
+<!-- Inicio do conteudo -->
+<main role="main">
+    <div class="container">
+        <p>
+        <div class="offset-1"><h1>Alimentos</h1></div>
+        <div class="jumbotron col-10 row justify-content mx-auto mt-4">
+            <div class="container bg-white">
+                <form action="/createfood" class="form-signin mt-4" method="post">
+					{% csrf_token %}
+                    <p>
+          			<input class="form-control ml-auto mr-auto" type="text" name="name" placeholder="Nome do alimento" pattern=".{2,45}" required>
+                    <p>
+                    <input class="form-control ml-auto mr-auto" type="number" name="carbo" placeholder="Carboidratos Ex:100"  maxlength="10" required>
+                    <P>
+                    <input class="form-control ml-auto mr-auto" type="number" name="prot" placeholder="Proteinas Ex:50" maxlength="10" required>
+                    <P>
+                    <input class="form-control ml-auto mr-auto" type="number" name="fat" placeholder="Gordura Ex:10" maxlength="10" required>
+                    <p>
+                    <button class="btn btn-success" type="submit" style="width: 240px;">Adicionar alimento</button>
+                </form>
+                <form action="/deletefood" class="form-signin mt-4" method="post">
+                    <select name="foodname" class="form-control">
+                    {% for alimento in alimentos %}
+                    <option value="{{ alimento.name }}">{{ alimento.name }}</option>
+                    {% endfor %}
+                    </select>
+                    <p></p>
+                    <button class="btn btn-danger" type="submit" style="width: 240px;">Deletar alimento</button>
+                    {% csrf_token %}
+                </form>
+                <p></p>
+            </div>
+            <div class="container bg-white">
+                <div class="mt-5"><h3 style="color:green; font-size:21px;">Tabela de alimentos</h3></div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Carboidratos</th>
+                            <th scope="col">Proteinas</th>
+                            <th scope="col">Gorduras</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                {% for alimento in alimentos %}
+                <tr>
+                <td>{{ alimento.name }}</td>
+                <td>{{ alimento.carbo }}</td>
+                <td>{{ alimento.prot }}</td>
+                <td>{{ alimento.fat }}</td>
+            </tr>
+                {% endfor %}
+                    </tbody>
+            </table>
+            </div>
+        </div>
+        <!-- Example row of columns -->
+    </div>
+    <hr>
+
+
+        <!-- final do jumbotron -->
+</main>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <span class="text-muted">Developed by Mad Insight</span>
+            </div>
+        </div>
+</footer>
+</body>
+{% endblock %}

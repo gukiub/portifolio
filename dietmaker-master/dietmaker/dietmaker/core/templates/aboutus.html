@@ -1,0 +1,133 @@
+ {% extends "base.html" %} {% load staticfiles %} {% block content %}
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="{% url 'home'%}"><img src="{% static 'media/logo.png' %}" width="120px" height="56" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" style="font-size: 16px;" href="{% url 'home' %}">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 16px;" href="{% url 'project' %}">Projeto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="font-size: 16px;" href="{% url 'aboutus' %}">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 16px;" href="{% url 'contact' %}">Contato</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 16px;" href="{% url 'login' %}">Login</a>
+          </li>
+          <span class="navbar-text">
+            |
+          </span>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 16px;" href="{% url 'register' %}">Registrar-se</a>
+          </li>
+        </ul>
+      </div>
+      </button>
+    </nav>
+  </header>
+
+
+  <div class="container">
+    <h1 class="display-3 ">DietMaker</h1>
+    <h5>By Mad Insight</h5>
+    <p class="col-md-10 mt-5">Com experiência no de desenvolvimento de Sites, nós da MAD desenvolvemos esse produto visando
+      atender a alta demanda de pessoas que precisam controlar suas dietas. O produto foi criado em 2018 mas lançado em 2019.
+      Após longa pesquisa de mercado, entendemos que as pessoas tem dificuldades em seguir suas dietas pois não conseguem
+      mensurar a quantidade de calorias ingeridas durante a alimentação.</p>
+
+    <p class="col-md-10 mt-5">Com nossa ferramenta você pode além de montar sua dieta com seus alimentos preferidos, você
+      terá ela disponivel 24/7 para sua consulta e edição. Após o contato com nossos nutricionistas, a sua dieta será inserida
+      por você mesmo, baseado no número de calorias que necessita. Dando assim total controle sobre quais alimentos você
+      poderá ingerir. Temos uma lista com uma enorme quantidade de alimentos e suas tabela calórica para facilitar sua busca</p>
+
+
+  </div>
+  <div class="col-md-12 mt-5" style="background:grey; height:20px"></div>
+  <div class="container">
+  <div class="row mt-5 offset-1">
+    <div class="col-md-4">
+      <img src="{% static 'media/gustavo.jpg' %}" alt="gustavo" style="border-radius:100%; width:40%" class="offset-2">
+      <div class="w3-container mt-5">
+        <h3>Gustavo Lafant</h3>
+        <p class="w3-opacity">CEO</p>
+        <p> Presidente da empresa Mad, possuindo como função a palavra final sobre contratos e processos em andamento.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <img src="{% static 'media/guilherme.jpg' %}" alt="guilherme" style="width:40%; border-radius: 100%" class="offset-2">
+      <div class="w3-container mt-5">
+        <h3>Guilherme Rodrigues</h3>
+        <p class="w3-opacity">CTO</p>
+        <p> O Chief Technology Officer, ou Diretor de Tecnologia, pode acumular as funções de um CIO, mas geralmente está
+          abaixo dele, preocupando-se em aplicar as estratégias traçadas.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <img src="{% static 'media/rafael.jpg' %}" alt="rafael" style="width:40%; border-radius: 100%;" class="offset-2">
+      <div class="w3-container mt-5">
+        <h3>Rafael Jordão</h3>
+        <p class="w3-opacity font-bl">Design</p>
+        <p> Auxilia os programadores em seus trabalhos, caso os mesmos tenham necessidade, procurando corrigir erros visuais
+          e desenvolver visualmente o sistema.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="row mt-5 offset-1">
+    <div class="col-md-4">
+      <img src="{% static 'media/yan.jpg' %}" alt="yan" style="border-radius:190%; width:40%" class="offset-2">
+      <div class="w3-container mt-5">
+        <h3>Yan Andrade</h3>
+        <p class="w3-opacity">Programador</p>
+        <p> Funcionário da empresa Mad que tem como função o desenvolvimento de projetos dentro da empresa.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <img src="{% static 'media/igor.jpg' %}" alt="igor" style="width:40%; border-radius: 100%" class="offset-2">
+      <div class="w3-container mt-5">
+        <h3>Igor Lolatto</h3>
+        <p class="w3-opacity">Programador</p>
+        <p> Funcionário da empresa Mad que tem como função o desenvolvimento de projetos dentro da empresa.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <img src="{% static 'media/italo.jpg' %}" alt="Italo" style="width:40%; border-radius: 100%;" class="offset-2">
+      <div class="w3-container mt-5">
+        <h3>Italo Leandro</h3>
+        <p class="w3-opacity">Programador</p>
+        <p> Funcionário da empresa Mad que tem como função o desenvolvimento de projetos dentro da empresa.</p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  </main>
+
+  <hr>
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <span class="text-muted">Developed by Mad Insight</span>
+      </div>
+    </div>
+  </footer>
+</body>
+{% endblock %}

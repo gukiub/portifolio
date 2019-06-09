@@ -1,0 +1,74 @@
+{% extends "base.html" %} {% load staticfiles %} {% block content %}
+
+<body>
+    <!-- Menu -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="{% url 'home'%}"><img src="{% static 'media/logo.png' %}" width="120px" height="56"
+                /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 16px;" href="{% url 'home' %}">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 16px;" href="{% url 'project' %}">Projeto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 16px;" href="{% url 'aboutus' %}">Sobre nós</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 16px;" href="{% url 'contact' %}">Contato</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 16px;" href="{% url 'login' %}">Login</a>
+                    </li>
+                    <span class="navbar-text">
+                        |
+                    </span>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 16px;" href="{% url 'register' %}">Registrar-se</a>
+                    </li>
+                </ul>
+            </div>
+            </button>
+        </nav>
+    </header>
+    <!-- Final do menu -->
+
+    <!-- Inicio do conteudo -->
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container ">
+                <h1 class="mb-5">FALE CONOSCO:</h1>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Endereço de email</label>
+                    <input type="email" class="form-control mt-1 w-25" id="exampleFormControlInput1" placeholder="">
+
+                    <label for="exampleFormControlTextarea1" class="mt-3">Digite aqui:</label>
+                    <textarea class="form-control w-25" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <button class="btn btn-success mt-4 ">ENVIAR</button>
+
+                </div>
+
+                <hr>
+
+            </div> <!-- final do conteudo -->
+    </main>
+            <hr>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <span class="text-muted">Developed by Mad Insight</span>
+            </div>
+        </div>
+    </footer>
+</body>
+{% endblock %}

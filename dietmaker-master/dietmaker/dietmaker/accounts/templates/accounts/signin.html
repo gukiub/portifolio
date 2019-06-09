@@ -1,0 +1,36 @@
+{% extends 'base.html' %} {% block title %}Login{% endblock %} {% load staticfiles %} {% block content %}
+
+<body class="text-center">
+	<div class="jumbotron jumbotron">
+		<div class="row justify-content-md-center">
+			<div class="col-md-auto">
+				<form class="form-signin" method="post">
+					<h1 class="h3 mb-3 font-weight-normal"><img src="{% static 'media/logo.png' %}" width="191px" height="90" /></h1>
+					{% csrf_token %}
+
+					{% if form.non_field_errors %}
+            		{% for error in form.non_field_errors %}
+                        <p class="alert alert-danger col-md-auto mt-3">{{ error }}</p>
+                    {% endfor %}
+                    {% endif %}
+					
+          			<input type="text" class="form-control mb-4 ml-auto mr-auto" style="width: 240px;" name="username" placeholder="Username">
+       				
+          			<input type="password" class="form-control ml-auto mr-auto " style="width: 240px;" name="password" placeholder="Password">
+          		
+					<button class="btn btn-success mt-5" type="submit" style="width: 240px;">Entrar</button>
+				</form>
+				<p></p>
+				<a href="{% url 'home' %}" class="btn btn-secondary"  style="width: 240px;" role="button">Vá para a página inicial</a>
+			</div>
+		</div>
+	</div>
+	<footer class="footer mt-auto py-3">
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<span class="text-muted"> Desenvolvido por Mad Insight</span>
+			</div>
+		</div>
+	</footer>
+</body>
+{% endblock %}
