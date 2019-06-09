@@ -1,0 +1,99 @@
+<?php
+$conexao = mysqli_connect("localhost","root", "");
+
+if ($conexao == TRUE){ 
+    echo " Conexão com o servidor efetuada com sucesso. ";             
+}
+
+else{ 
+    echo " Falha ao conectar no servidor. ";             
+}
+
+if(mysqli_close($conexao))
+{ 
+    echo " Conexão com o banco fechada com sucesso. ";            
+}
+
+else{ 
+    echo " Não havia conexão aberta ou a conexão já tinha sido fechada. ";             
+}
+
+?>
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+        <?php
+        $conexao = mysqli_connect("localhost","root", "");
+                $banco = mysqli_select_db($conexao,"test"); 
+                        $sql = "INSERT INTO alunos (nomealuno, level) VALUES ('LeroyJeenkins','8001')"; 
+                                $resultado = mysqli_query($conexao, $sql); 
+                        if ($resultado){ 
+                            $numeroRegistros = mysqli_affected_rows($conexao); 
+                                echo "Comando executado com sucesso. "; 
+                                echo "Foram afetados $numeroRegistros registros."; 
+                                }
+                else{ 
+                    echo "Falha ao executar comando.";
+                            } 
+                mysqli_close($conexao);
+        ?>
+   
+
+-----------------------------------------------------------------------------------------------------------------
+
+ <?php
+$conexao = mysqli_connect("localhost","root", ""); 
+$banco = mysqli_select_db($conexao,"test"); 
+$sql = "SELECT Level, nomealuno FROM alunos"; 
+$resultado = mysqli_query($conexao, $sql); 
+if ($resultado){ 
+    while ($registro = mysqli_fetch_array($resultado)){  
+    echo "Nome: ". $registro["nomealuno"]."<br>";
+    echo "Level do aluno: ".$registro["Level"]."<br>";
+   } 
+} 
+
+mysqli_close($conexao);
+?>
+
+-----------------------------------------------------------------------------------------------------------------
+
+<?php
+       $conexao = mysqli_connect("localhost", "root", "");
+       $banco = mysqli_select_db($conexao, "test");
+       $sql = "select nomealuno from alunos where nomealuno LIKE 'A%'";
+       $resultado = mysqli_query($conexao, $sql);
+       if ($resultado){ 
+       while ($registro = mysqli_fetch_array($resultado)){  
+       echo "Nome: ". $registro["nomealuno"]."<br>";
+   } 
+} 
+    
+?>
+
+------------------------------------------------------------------------------------------------------------------
+
+
+<?php
+       $conexao = mysqli_connect("localhost", "root", "");
+       $banco = mysqli_select_db($conexao, "test");
+       $sql = "INSERT INTO alunos (nomealuno, level) VALUES ('Gustavo', '8002')"; 
+       $resultado = mysqli_query($conexao, $sql);
+       header("location: lista.php");
+?>
+
+ <?php
+        $conexao = mysqli_connect("localhost","root", "");
+                $banco = mysqli_select_db($conexao,"test"); 
+                        $sql = "Select * from alunos"; 
+                                $sql = "SELECT nomealuno FROM alunos"; 
+            $resultado = mysqli_query($conexao, $sql); 
+     if ($resultado){ 
+            while ($registro = mysqli_fetch_array($resultado)){  
+     echo "Nome: ". $registro["nomealuno"]."<br>";
+   } 
+} 
+                mysqli_close($conexao);
+        ?>
+   

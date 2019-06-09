@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="prj_data" id="43F073A1-AF99-F832-2EF4-D8B144189A25" version="3.5">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:26:45 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>43F073A1-AF99-F832-2EF4-D8B144189A25</designId>
+</OSDM_Design>

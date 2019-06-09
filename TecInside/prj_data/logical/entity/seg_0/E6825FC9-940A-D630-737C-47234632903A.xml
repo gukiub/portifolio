@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6825FC9-940A-D630-737C-47234632903A" name="Status">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-14 11:34:36 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Problema_clie" id="8072C7A9-EDDA-EA91-0253-5BD25B819B85">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-14 11:36:36 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stat_tipo" id="8F23EEA2-F549-2ADA-209C-3430D5B3DFA4">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-14 11:36:49 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8090CA17-C4B9-24E5-F9A8-A26E68F790EF" name="Status PK">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 02:38:45 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F23EEA2-F549-2ADA-209C-3430D5B3DFA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

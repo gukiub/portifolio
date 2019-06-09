@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65A73C59-32A6-008B-244E-6C75E270D0BC" name="Chamados">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-04 21:13:27 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_chamado" id="F6E2F2F7-E4CD-E05C-B938-F57BDBBA6966">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-04 21:13:45 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtHora" id="BEA98360-21C6-9160-ABC5-669455E3D5CD">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-14 11:45:58 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipificacao" id="3932336A-0FF6-6855-39AB-117910E069A8">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 02:33:21 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_clie" id="BFC70F9B-631B-CF0A-B4D8-A2D8F7C37ADE">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 02:35:09 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_fun" id="E36C7F37-A6CA-C661-5578-A50DE8F076AE">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 02:35:30 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_clie1" id="F65CC04F-DD8F-0664-D3C8-345C4AE926FD">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 21:40:45 UTC</createdTime>
+<generatorID>FA5711DD-203B-AFD5-976A-A52D36B62680</generatorID>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<referedAttribute>90AF10A9-0134-5223-543B-F336A5E65C8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_fun1" id="8619A220-A7BB-4F4F-D56D-E6305B919CED">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 21:41:53 UTC</createdTime>
+<generatorID>189BBD80-CE7A-3620-37C5-2A2D1C4528D7</generatorID>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<referedAttribute>D87F0A37-A236-9E7A-AC40-059B9BA15815</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stat_tipo" id="57A961E2-146E-84BA-3340-53A8BC6A4797">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-20 21:41:59 UTC</createdTime>
+<generatorID>5B498661-31B4-F051-4F54-C9FD67E75497</generatorID>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<referedAttribute>8F23EEA2-F549-2ADA-209C-3430D5B3DFA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31449D56-0524-81D2-28E8-B4F7F11FC662" name="Chamados PK">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-06 17:46:10 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6E2F2F7-E4CD-E05C-B938-F57BDBBA6966</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

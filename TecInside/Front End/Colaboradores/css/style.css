@@ -1,0 +1,40 @@
+.navbar-brand {
+    text-align: center;
+    background: url(../imagens/tec05.png) no-repeat ;
+    background-size: contain;
+    width: 100px !important;
+    text-indent: -99999999px;
+    float: right;
+    height: 50px;
+
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
+
+.amarelo{
+    background-color: yellow;
+    color: black;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.page-footer {background-color: rgba(0, 0, 0, 0.205);
+    margin-top: 80px;
+    text-decoration: none;
+    color: black;}
+
+.page-footer a {
+    text-decoration: none;
+    color: black;}
+
+.page-footer a:hover {
+    text-decoration: none;
+    color: white;}
+CSS do FOOTER
+

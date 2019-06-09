@@ -1,0 +1,24 @@
+
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+    margin-top: 70px;
+    transition-duration: 4.ms;
+    transition: all;
+  }
+
+  .btn-circle.btn-xl:hover {
+    background-color: black;
+    color: white;
+  }
+
+  
+.btn-circle.btn-xl:hover:checked  { background-color: goldenrod;}
+
+.transparent:hover {background-image: linear-gradient(grey, rgba(0, 0, 0, 0.089)); color: white}
+
+

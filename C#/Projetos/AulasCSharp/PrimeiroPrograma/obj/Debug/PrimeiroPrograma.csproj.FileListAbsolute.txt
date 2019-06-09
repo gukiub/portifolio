@@ -1,0 +1,13 @@
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\bin\Debug\PrimeiroPrograma.exe.config
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\bin\Debug\PrimeiroPrograma.exe
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\bin\Debug\PrimeiroPrograma.pdb
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\bin\Debug\aa\PrimeiroPrograma.resources.dll
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.csprojAssemblyReference.cache
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.Properties.Resources.resources
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.csproj.GenerateResource.cache
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.csproj.CoreCompileInputs.cache
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\aa\PrimeiroPrograma.resources.dll
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.exe
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.pdb
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.janela.resources
+C:\Users\gustavo\Desktop\projetos\AulasCSharp\PrimeiroPrograma\obj\Debug\PrimeiroPrograma.janela.aa.resources

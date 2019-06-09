@@ -1,0 +1,29 @@
+select * from funcionario where matricula > 3 and matricula < 6;
+
+select * from funcionario order by nome asc;
+
+select * from funcionario where dt_admissao is not null;
+
+select * from funcionario where dt_admissao = '10/10/2010' or nome > 'Ricardo';
+
+select * from funcionario where dt_admissao = '10/10/2010' and nome > 'Ricardo';
+
+select nome "cabra", salario from funcionario where salario between 4000 and 6000;
+
+select nome, salario, salario * 280 / 100 "comissao" from funcionario where salario = 2500 and (salario * 280 /100) > 200 order by salario * 280 / 100;
+
+select nome, salario, salario * 0.275 IRPF from funcionario where salario > 4000;
+
+select nome, salario, salario * 0.225 IRPF, 
+salario * 0.11 INSS,
+salario * 0.04 conv_m,
+salario * 0.015 conv_odonto
+from funcionario where salario > 4000 order by nome asc;
+
+select nome, salario, (salario + 100) * 12 bonus from funcionario where matricula = 1;
+
+select nome, dt_admissao from funcionario where matricula > 1 and comissao in ('A', 'B');
+
+select * from funcionario where matricula != 1 and comissao not in ('A')
+
+select * from funcionario where nome like '%do%';

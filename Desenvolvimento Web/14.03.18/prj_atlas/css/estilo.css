@@ -1,0 +1,17 @@
+body {
+	background: #AA3C39;
+	/* para utilizar cores em hexadecimal use o #*/
+}
+
+h1{
+	color: #AAA039;
+	font-size:48px;
+}
+
+table{
+	background: #ffffff;
+}
+
+table tr th{
+	text-align: left;
+}

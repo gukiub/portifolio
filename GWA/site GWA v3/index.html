@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<title>GWA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="imagens/Icone.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+    
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("imagens/apple_desktop-wallpaper-1920x1080.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Home</a>
+    
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Equipe</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Trabalho</a>
+      
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contato</a>
+    </div>
+    
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Fechar ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Equipe</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Trabalho</a>
+  
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contato</a>
+</nav>
+
+
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">GWA Onde seu Trabalho é Valorizado</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">GWA Onde seu Trabalho é valorizado</span><br>
+    <span class="w3-large">Pare de perder tempo e junte-se a nós, uma empresa terceirizada de TI que disponibiliza funcionários por meio de contratos.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Saiba mais e comece hoje</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Sobre a Empresa</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Dinâmica</p>
+      <p> Nossa empresa fornece profissionais com grandes capacidades de adaptação o que o torna essencial para suas necessidades.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Compreensiva</p>
+      <p> Uma empresa que atende e recebe a todos os profissionais de TI de braços abertos, Também trabalhamos com Deficientes fisicos. Sempre prezando pela integridade de nossos funcionários.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Startup em ascensão</p>
+      <p>Uma empresa com forte crescimento na área da informática, tanto pela demanda de serviços quanto a quantidade de novos profissionais que lançamos ao mercado, buscamos novas parcerias e patrocínios.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Suporte</p>
+      <p>Temos total assistência para novos clientes, mas nunca esquecemos os antigos, fornecendo a eles toda a atenção que precisam mesmo após términos de contratos.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="infra">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Nossa infraestrutura</h3>
+      <p>A GWA Systems and Technologies é, uma empresa terceirizada do setor tecnológico fundada em 2018, com o intuito de fornecer a seus clientes alternativas de serviços práticos, e funcionais tanto presenciais, quanto a distância. 
+Nosso trabalho tem como objetivo encaminhar profissionais para atuar em empresas que necessitam de empregados na área da informática, focados na administração de banco de dados, redes e desenvolvimento de software. 
+Assim, a empresa que opta a procurar seus futuros funcionários através da GWA, terá a garantia que o trabalho será bem realizado e os custos bem controlados através de um contrato simples, direto e confiável.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Veja Nossos Trabalhos</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="imagens/banner.JPG" style="width: 220vw; height: 45vh;">
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">A equipe</h3>
+  <p class="w3-center w3-large">Aqueles que fundaram esta empresa</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    
+      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/Gustavo.jpg" alt="Gustavo" style="width:100%"> 
+        <div class="w3-container">
+          <h3>Gustavo Lafant</h3>
+          <p class="w3-opacity">CEO</p>
+            <p>Presidente da corporação GWA, possuindo como função a palavra final sobre contratos e processos em andamento. </p>
+        </div>
+      </div>
+    </div>
+      
+      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/lucas.jpg" alt="Lucas" style="width:100%">
+        <div class="w3-container">
+          <h3>Lucas Ventura</h3>
+          <p class="w3-opacity">Gerente</p>
+            <p>Gerencia toda a estrutura social dentro da corporação, levando ao CEO, relatórios dos acontecimentos dentro da empresa.</p>
+        </div>
+      </div>
+    </div> 
+      
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/diana.jpeg" alt="Diana" style="width:100%">
+        <div class="w3-container">
+          <h3>Diana Garcia</h3>
+          <p class="w3-opacity">Assistente</p>
+            <p> Auxilia os analistas em seus trabalhos, caso os mesmos tenham necessidade, procurando dar o máximo de seu apoio para o projeto deles ser concluído corretamente.</p>
+        </div>
+      </div>
+    </div> 
+      
+      
+      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/vitor.jpg" alt="Vitor" style="width:100%">
+        <div class="w3-container">
+          <h3>Vitor Hugo</h3>
+          <p class="w3-opacity">Assistente</p>
+            <p> Auxilia os analistas em seus trabalhos, caso os mesmos tenham necessidade, procurando dar o máximo de seu apoio para o projeto deles ser concluído corretamente. </p>
+        </div>
+      </div>
+    </div>
+      
+   
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/andr%C3%A9.jpg" alt="André" style="width:100%">
+        <div class="w3-container">
+          <h3>André Rafael</h3>
+          <p class="w3-opacity">Analista</p>
+            <p> Funcionários da corporação que tem como destaque a montagem de projetos dentro da empresa  solicitada para uma melhor estrutura técnica da mesma, podendo fazer a manutenção de servidores, criação de sites, entre outras coisas, sendo que, cada analista tem sua própria função. </p>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/wagner.jpg" alt="Wagner" style="width:100%">
+        <div class="w3-container">
+          <h3>Wagner Soares</h3>
+          <p class="w3-opacity">Analista</p>
+            <p> Funcionários da corporação que tem como destaque a montagem de projetos dentro da empresa  solicitada para uma melhor estrutura técnica da mesma, podendo fazer a manutenção de servidores, criação de sites, entre outras coisas, sendo que, cada analista tem sua própria função. </p>
+        </div>
+      </div>
+    </div>
+	
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="imagens/saulo.jpg" alt="Saulo" style="width:100%">
+        <div class="w3-container">
+          <h3>Saulo Silva</h3>
+          <p class="w3-opacity">Estagiário</p>
+            <p>Se encontra na empresa por um curto período (mas podendo ser efetivado futuramente) e tem como função o aprendizado dos cargos da empresa para assim o mesmo entrar por definitivo, dependendo de seu desempenho.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">3+</span>
+    <br>Parceiros
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">1+</span>
+    <br>Projetos Finalizados
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">2+</span>
+    <br>Clientes felizes
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Empregos
+  </div>
+</div>
+
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Nosso Trabalho</h3>
+  <p class="w3-center w3-large">Mandando profissionais capacitados ao mercado desde 2018</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="imagens/Profissional-de-TI-2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagens/profissional-feliz-ti.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagens/35183aba-e70c-451e-96b3-27e1d4a2852e.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagens/download.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="imagens/0b1d2c9c-1f45-438a-b424-a90b9beb11dc.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagens/ti.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagens/csm_ir_5849c7d3f4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagens/134941-qual-a-importancia-do-ingles-para-profissionais-de-ti.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">Contato</h3>
+  <p class="w3-center w3-large">Entre em contato conosco</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Rua José Carlos de Almeida, N° 305; São Paulo, BR</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> GWA@outlook.com</p>
+      <br>
+      <form action="paginas/action.html">
+        <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Assunto" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> Enviar
+          </button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+    </div>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p> Telefone para contato: +55 (11)95238-4019</p>
+  </div>
+</footer>
+ 
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+create database cadastro_agenda;
+
+use cadastro_agenda;
+
+
+create table login(usuario varchar(14) not null,senha varchar(14) not null);
+
+alter table login add unique index IX_Contato(usuario);
+
+create table contatos(cod int(11) primary key auto_increment,nome varchar(40) not null,tel varchar(40),email varchar(50),endereco varchar(50),uf varchar(2),obs varchar(30),nomecriador varchar(14) not null);
+
+create table anotacoes(id int(11) primary key auto_increment,data varchar(20) not null,assunto varchar(30),lembrete varchar(100) not null,nomecriador varchar(14) not null);
+

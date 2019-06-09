@@ -1,0 +1,10 @@
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.csprojAssemblyReference.cache
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.frmTotalVendas.resources
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.Properties.Resources.resources
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.csproj.GenerateResource.cache
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.csproj.CoreCompileInputs.cache
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\bin\Debug\TotalVendas.exe.config
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\bin\Debug\TotalVendas.exe
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\bin\Debug\TotalVendas.pdb
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.exe
+E:\Uninove\C#\29.10.18\TotalVendas\TotalVendas\obj\Debug\TotalVendas.pdb

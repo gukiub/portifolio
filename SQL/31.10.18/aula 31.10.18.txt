@@ -1,0 +1,24 @@
+CREATE TABLE cargo( CodCargo char(2) primary key, NomeCargo varchar(10) not null, ValorCargo number(6,2) not null);
+
+INSERT INTO cargo VALUES('C1','CAIXA', 800.00);
+INSERT INTO cargo VALUES ('C2','VENDEDOR', 1200.00);
+INSERT INTO cargo VALUES ('C3','GERENTE' , 2400.00);
+
+CREATE TABLE funcionario (Matricula number(3) primary key, NomeFuncionario varchar(15) NOT NULL, CodCargo char(2), FOREIGN KEY (CodCargo) REFERENCES CARGO);
+
+INSERT INTO funcionario VALUES (100, 'JOÃO' , 'C1');
+INSERT INTO funcionario VALUES (110, 'MARIA' , 'C2');
+INSERT INTO funcionario VALUES (120, 'CARLOS' , 'C1');
+INSERT INTO funcionario VALUES (130, 'TADEU' , NULL);
+
+SELECT nomefuncionario, nomecargo from cargo
+INNER JOIN funcionario ON (cargo.codcargo = funcionario.codcargo);
+
+SELECT nomefuncionario, nomecargo from cargo, funcionario2
+WHERE cargo.codcargo = funcionario2.codcargo;
+
+SELECT nomefuncionario, nomecargo from cargo c
+INNER JOIN funcionario2 f ON (c.codcargo = f.codcargo);
+
+select nomefuncionario, valorcargo from cargo c
+inner join funcionario2 f on (c.codcargo = f.codcargo);

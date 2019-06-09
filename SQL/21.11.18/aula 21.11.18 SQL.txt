@@ -1,0 +1,62 @@
+CREATE TABLE cargo (
+    codcargo     CHAR(2) PRIMARY KEY,
+    nomecargo    VARCHAR(10) NOT NULL,
+    valorcargo   NUMBER(6, 2) NOT NULL
+);
+
+INSERT INTO cargo VALUES (
+    'C1',
+    'CAIXA',
+    800.00
+);
+
+INSERT INTO cargo VALUES (
+    'C2',
+    'VENDEDOR',
+    1200.00
+);
+
+INSERT INTO cargo VALUES (
+    'C3',
+    'GERENTE',
+    2400.00
+);
+
+CREATE TABLE funcionario (
+    matricula         NUMBER(3) PRIMARY KEY,
+    nomefuncionario   VARCHAR(15) NOT NULL,
+    codcargo          CHAR(2),
+    FOREIGN KEY ( codcargo )
+        REFERENCES cargo
+);
+
+INSERT INTO funcionario VALUES (
+    100,
+    'JOÃO',
+    'C1'
+);
+
+INSERT INTO funcionario VALUES (
+    110,
+    'MARIA',
+    'C2'
+);
+
+INSERT INTO funcionario VALUES (
+    120,
+    'CARLOS',
+    'C1'
+);
+
+INSERT INTO funcionario VALUES (
+    130,
+    'TADEU',
+    NULL
+);
+
+SELECT
+    nomefuncionario,
+    nomecargo
+FROM
+    cargo c
+    FULL OUTER JOIN funcionario f ON ( c.codcargo = f.codcargo );

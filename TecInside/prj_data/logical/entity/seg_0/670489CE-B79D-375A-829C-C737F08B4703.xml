@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="670489CE-B79D-375A-829C-C737F08B4703" name="Cliente">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:35:32 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_clie" id="90AF10A9-0134-5223-543B-F336A5E65C8D">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:36:04 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="FEBDBCF5-AAE7-6FBB-AFEF-DFD1DF9437A0">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:36:19 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_unique" id="7C2B5064-BFC5-E987-1E44-7BB60B4E495E">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:37:04 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4F77644D-0C94-7D77-AD57-555E263DFCF9">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:37:11 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="8FAADD29-B5A1-5967-0D1A-7D8C8145864D">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:37:17 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uf" id="C2C51B92-D23B-695E-7B2B-9C5AC103CDA5">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:37:21 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="3FA85D23-1C2A-8487-47A1-1C726F59B7B7">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:37:24 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="DBB76213-1726-38A7-EFEF-DD0CFB9B67BE">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:37:39 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5613FCA-E188-174B-15A9-59F07200AC1B" name="Cliente PK">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:36:17 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90AF10A9-0134-5223-543B-F336A5E65C8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

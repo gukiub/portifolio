@@ -1,0 +1,46 @@
+create table cliente
+(cod_clie number(4) constraint clie_cod_pk primary key,
+nome_clie varchar2(20) constraint clie_nom_nn not null,
+endereco varchar2(30),
+cidade varchar2(15),
+cep char(8),
+uf char(2),
+cnpj char(14),
+IE char(12));
+
+Insert into cliente values (720, 'Ana', 'Rua 17 a. 19', 'Niteroi', '24358310', 'RJ', '12113231000134', '2134');
+Insert into cliente values (870, 'Flavio', 'Av. Pres. Vargas, 10', 'São Paulo', '22763931', 'SP', '2253412693879', '4631');
+Insert into cliente values (110, 'Jorge', 'Rua Caiapo, 13', 'Curitiba', '30078500', 'PR', '1451276498349', null);
+Insert into cliente values (222, 'Lucia', 'Rua Itabira,123', 'Belo Horizonte', '22124391', 'MG', '28315212393488', '2985');
+Insert into cliente values (830, 'Mauricio', 'Av. Paulista, 1236', 'São Paulo', '3012683', 'SP', '3281698574656', '9343');
+Insert into cliente values (130, 'Edmar', 'Rua da Praia, s/n', 'Salvador', '30079300', 'BA', '234632842349', '7121');
+Insert into cliente values (410, 'Rodolfo', 'Largoda Lapa, 27', 'Rio de Janeiro', '30078900', 'RJ', '1283512023469', '743');
+Insert into cliente values (20, 'Beth', 'Rua Climerio, 45', 'São Paulo', '25679300', 'SP', '3248512673268', '9280');
+Insert into cliente values (157, 'Paulo', 'Trav. Moraes, casa 3', 'Londrina', null, 'PR', '328482233242', '1923');
+Insert into cliente values (180, 'Livio', 'Av. Beira Mar, 1256', 'Florianópolis', '30077500', 'SC', '1273657123474', '1111');
+Insert into cliente values (260, 'Susana', 'Rua Lopes Mandes, 12', 'Niteroi', '30046500', 'RJ', '217635712329', '2530');
+Insert into cliente values (290, 'Renato', 'Rua Meireles, 123', 'São Paulo', '30225900', 'SP', '1327657112314', '1820');
+Insert into cliente values (390, 'Sebastião', 'Rua da Igreja, 10', 'Uberaba', '30438700', 'MG', '321765472133', '9071');
+Insert into cliente values (234, 'Jose', 'Quadra 3, B1, 3, sl. 1003', 'Brasília', '22841650', 'DF', '2176357612323', '2931');
+
+select uf, count(uf) total from cliente group by uf;
+
+select uf, count(uf) total from cliente group by uf having count(uf) > 2;
+
+select nome_clie "nome", uf from cliente where uf = 'SP';
+
+select nome_clie "nome", uf from cliente where uf = 'RJ';
+
+select uf, count(uf) total from cliente group by uf having count(uf) = 2;
+
+select cidade, count(cidade) total from cliente group by cidade having count(cidade) > 1;
+
+select MAX(salario) from funcionario;
+
+select nome, salario from funcionario order by salario desc;
+
+select nome, salario from funcionario where salario = (select min(salario) from funcionario);
+
+select nome, salario from funcionario where salario = (select max(salario) from funcionario);
+
+select nome, salario from funcionario where salario > (select avg(salario) from funcionario);

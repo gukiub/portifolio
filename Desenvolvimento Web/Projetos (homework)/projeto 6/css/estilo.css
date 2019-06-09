@@ -1,0 +1,53 @@
+*{
+    width: 100% 100%;
+    margin: 0;
+}
+
+body{
+    background-color: #505286;
+}
+
+main{
+    width: 100%;
+    min-height: calc(100% - 90px);
+    background-color: #505286;
+    margin: 30px auto;
+    position: absolute;
+}
+
+
+#info{
+    padding: 7px;
+    background-color: #000000;
+    color: aliceblue;
+    width: 5%;
+    float: left;
+    margin-left: 39.5%;
+    text-align: center;
+}
+
+
+#input{
+    width: 5%;
+    display: inline;
+    margin-top: 10px;
+}
+
+
+.texto{
+    margin: 20px auto ;
+    padding: 5px;
+    border: solid black 1px;
+    background-color: white;
+    text-align: justify;
+    width: 500px;
+    min-height: 250px;
+}
+
+
+#carregar{
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: white;
+}

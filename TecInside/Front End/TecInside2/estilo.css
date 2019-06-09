@@ -1,0 +1,121 @@
+* body {
+     margin:0;
+     padding:0;
+     background-color:#f7f7f7;
+     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+     font-size:medium;
+     color:#000;
+     line-height:150%;
+}
+ 
+h1 {
+     color:#039;
+     font-size:120%;
+}
+ 
+h3 {
+     color:#900;
+     font-size:100%;
+}
+ 
+p {
+     font-size:80%;
+}
+ 
+#conteudo {
+     width:984px;
+     height:auto;
+     display:table;
+     margin:10px auto;
+     border-top:1px solid #e1e1e1;
+}
+ 
+#conteudo form {
+     font-size:80%;
+}
+ 
+#conteudo form legend {
+     padding:5px;
+     border:1px solid #036;
+     border-radius:5px;
+     background-color:#e2e2e2;
+}
+ 
+#conteudo fieldset {
+     border:1px dotted #036;
+}
+ 
+#conteudo form label {
+     width:120px;
+     float:left;
+     font-weight:bold;
+     margin:5px 0;
+}
+ 
+#conteudo form input[type="email"],#conteudo form input[type="text"], #conteudo form input[type="password"] {
+     float:left;
+     background-color:#3b5998;
+     text-indent:10px;
+     width:150px;
+     height:25px;
+     border:1px solid #036;
+     border-radius:5px;
+     margin:5px 0;
+     color:#fff;
+}
+ 
+#conteudo form input[type="email"]:hover,#conteudo form input[type="text"]:hover, #conteudo form input[type="password"]:hover {
+     background-color: #E0E6F3;
+     color:#000;
+}
+ 
+#conteudo form input[type="email"]:focus,#conteudo form input[type="text"]:focus, #conteudo form input[type="password"]:focus {
+     background-color:#fff;
+     color:#000;
+}
+ 
+#conteudo form input[type="submit"]{
+     background-color:#E0E6F3;
+     color:#000;
+     width:150px;
+     text-align:center;
+     padding:5px;
+     border-radius:5px;
+     float:left;
+     margin:0 50px;
+}
+
+#conteudo form input[type="submit"]:hover{
+     background-color:#000;
+     color:#fff;
+}
+ 
+.clear {
+     clear:both;
+}
+ 
+.borda {
+     border-top:1px solid #e1e1e1;
+     margin:10px auto;
+}
+ 
+.destaca {
+     color:#f90;
+}
+ 
+.logout {
+     float:right;
+     border:1px solid #900;
+     background-color:#ccc;
+     padding:5px;
+     width:250px;
+     height:25px;
+     text-align:center;
+     margin:10px 0 0;
+}
+ 
+.sairSistema {
+     font-size:70%;
+     color:#036;
+     margin:0 auto;
+}

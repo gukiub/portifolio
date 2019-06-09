@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.navbar-brand {
+    text-align: center;
+    background: url(../content/img/tec05.png) no-repeat ;
+    background-size: contain;
+    width: 100px !important;
+    text-indent: -99999999px;
+    float: right;   
+    height: 50px;
+    
+}
+
+    
+.Text1{ font-family: 'Anton', sans-serif;
+        font-size: 70px; }
+
+ .text2  { font-family: 'Roboto Condensed', sans-serif;
+         font-size: 20px;
+        margin-top: 20px;
+ }
+
+ .text3 {font-family: 'Oswald', sans-serif; }
+
+
+
+.bordazinha {height: 110%; 
+    border-radius: 80px; 
+    width: 290px;}
+
+.page-footer {background-color: rgba(0, 0, 0, 0.205);
+text-decoration: none;
+color: black;}
+
+.page-footer a {
+    text-decoration: none;
+    color: black;}
+
+.page-footer a:hover {
+    text-decoration: none;
+    color: white;}
+
+
+
+
+

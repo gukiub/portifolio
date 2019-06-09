@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpg" href="imagens/tec05.png" />
+
+    <title>Cliente</title>
+</head>
+
+<body>
+    <!-- Menu fixo -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
+        <a class="navbar-brand mt-3" href="#"><img src="imagens/tec05.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cadastro">Cadastro</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <h6 class="mr-2">Login</h6>
+                <input class="form-control mr-sm-2" type="text" ng-model="users.Name" placeholder="Email...">
+                <input class="form-control mr-sm-2" type="password" ng-model="users.Password" placeholder="Password...">
+                <button class="btn btn-outline-primary my-2 my-sm-0" ng-click="logar.acceptlogin(users)" type="submit"><i class="fas fa-sign-in-alt"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- painel -->
+
+    <div class="container mt-5">
+
+
+
+        <!-- colapser -->
+        <p>
+            <a class="btn btn-primary mt-5" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" border>
+                New Call
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <p class="lead">Open New Call</p>
+                <hr class="my-4">
+                <p> <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="What's your problem?"></p>
+
+
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg verde" href="#" role="button">Insert</a>
+                </p>
+            </div>
+        </div>
+
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Call</th>
+                    <th scope="col">Progress</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+        <div class="container-fluid text-center text-md-left">
+
+
+            <div class="row">
+
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <h5 class="text-uppercase">TEC INSIDE</h5>
+                    <p>Preparados para atender qualquer uma de suas necessidades com TI</p>
+
+                </div>
+
+                <div class="col-md-4 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!"><i class="fas fa-mobile-alt"></i> Fale Conosco</a>
+                        </li>
+                        <li>
+                            <a href="#!"> <i class="fas fa-sign-in-alt"></i> Cadastre-se</a>
+                        </li>
+                        <li>
+                            <a href="#!"> <i class="fas fa-plus"></i> Login</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-1 mb-md-0 mb-3">
+
+                    <img src="imagens/tec05.png" height="100">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="index.html"> Tec Inside LTDA</a>
+        </div>
+
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="js/popper.js/dist/umd/popper.min.js"></script>
+    <script src="js/popper.js/dist/umd/popper-utils.min.js"></script>
+    <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="css/bootstrap/js/dist/util.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body {
+	background-color: white;
+	background-image: url(../imagens/css.jpg);
+	color: white;
+	background-position:center;
+	background-attachment: fixed;
+}
+
+*{
+	padding:0;
+	margin:0 auto;
+	text-decoration:none;
+	border:0;
+}
+
+#topo{
+	background: black;
+	width: 970px;
+	height: 180px;
+	margin:0 auto;
+	padding: 15px;
+	
+}
+
+.nav{
+	background: gray;
+	width: 970px;
+	margin:0 auto;
+	padding: 15px;
+	text-align:center;
+	}
+
+
+.nav li{
+	display: inline;
+	margin: 0 15px;
+	font-size: 25px;
+	font-family: verdana;
+}
+
+.nav li a{
+	color:black;
+	
+}
+
+.nav li a:hover{
+	color: red;
+}
+
+#conteudo{
+	width: 970px;
+	margin: 0 auto;
+	background-color: white;
+	color: black;
+	min-height: 350px;
+	padding: 15px;
+	opacity: 0.8;
+}
+
+#rodape{
+	width: 970px;
+	margin: 0 auto;
+	background: gray;
+	min-height: 30px;
+	padding: 15px;
+	text-align: center;
+}
+
+h1{
+	color:red;
+	text-align:center;
+	padding-top:15px;
+}
+
+p{
+	text-align:left;
+	padding-top:15px;
+	word-break: breal-all;
+}
+
+table{
+	color: black;
+	
+}
+
+table tr td{
+	padding:7px;
+}
+
+#texto{
+	padding: 15px;
+	width: 970px;
+	background-color: white;
+	color: black;
+	min-height: 100px;
+	opacity: 0.8;
+	margin-top: 0 auto;
+	font-family: arial;
+}
+	

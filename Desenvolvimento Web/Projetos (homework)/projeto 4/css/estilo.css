@@ -1,0 +1,57 @@
+body{
+	background-image: url(../imagens/fundosite.jpg);
+	color: #FFFFFF;
+	background-position: center;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	background-attachment: fixed;
+}
+
+#topo{
+	position:relative;
+    background-color: #FFFFFF;
+	padding: 15px;
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 2200px;
+}
+
+.chuva{
+	position:relative;
+    float: left;
+    width: 450px;
+	color: red;
+	padding: 15px;
+	border: 5px solid red;
+    margin: 0 auto;
+	min-height:2142px;
+}
+
+.barra{
+	width: 1030px;
+	background-color: white;
+	margin: 0 auto;
+	min-height: 30px;
+	text-align: center;
+}
+
+.basquete{
+    position:relative;
+    float: right;
+    width: 450px;
+	color: green;
+	padding: 15px;
+	border: 5px solid green;
+    margin: 0 auto;
+}
+
+.e-sports{
+    position: relative;
+    float: right;
+    width: 450px;
+	color: orange;
+	padding: 15px;
+	border: 5px solid orange;
+	margin-top: 15px;
+}

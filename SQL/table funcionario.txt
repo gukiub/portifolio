@@ -1,0 +1,36 @@
+Create table funcionario
+(matricula number(4) constraint fun_mat_pk primary key,
+nome varchar2(20) constraint fun_nome_nn not null,
+salario number(8,2), dt_admissao date constraint fun_dt_nn not null,
+comissao char(1) constraint fun_com_nn not null);
+
+Insert into funcionario values (1,'Claudia',5000,'10/10/2010','A');
+Insert into funcionario values (2,'Silvio',5680,'07/12/2000','B');
+Insert into funcionario values (3,'Vanessa',4598.30,'23/08/2011','A');
+Insert into funcionario values (4,'Ricardo',5350,'01/04/2000','A');
+
+Update funcionario set salario = 1;
+
+Update funcionario set salario = 50, comissão = 'Z;
+
+Update funcionario set salario = 5000
+Where matricula = 1;
+
+Update funcionario set salario = 3500.89, dt_admissao = '10/10/11'
+Where  salario < 5000;
+
+Update funcionario set salario = 7000
+Where matricula > 3 and salario <> 5000;
+
+Update funcionario set salario = salario +100;
+
+Update funcionario set salario = null
+Where nome = 'Silvio';
+
+Update funcionario set salario = 10000
+Where salario is null;
+
+Update funcionario set salario = 10000
+Where salario is not null;
+
+

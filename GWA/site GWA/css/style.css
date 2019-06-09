@@ -1,0 +1,118 @@
+
+/* colocar uma fonte personalizada no menu*/
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+*{
+    text-decoration: none;
+}
+header{
+    background-color: #eeeeee;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    width: 70%;
+    height: 29.1%;
+    margin: auto;
+}
+
+.menu{
+    background-image: url(../imagens/bg-menu.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #000000;
+    margin: 0 auto;
+    width: 67.8%;
+    height: 5%;
+    padding: 15px;
+    z-index: 1;
+}
+
+.menu ul li{
+    color: black;
+    float: left;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.menu ul li:hover{
+    color: white;
+    background-color: #1b8fb8;
+    border: solid black 1px;
+    padding: 0;
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0 35px;
+    background-image: url(../imagens/bg-menu.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left: -36px;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.menu a{
+    color: black;
+}
+
+.menu ul ul li{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+main{
+    background-color: #6BBEB5;
+    min-height: 100%;
+    margin-top: 0px;
+    padding: 20px;
+    z-index: 3;
+}
+
+#transparente{
+    background-color: white;
+    margin: 0 auto;
+    opacity: 0.5;
+    width: 70%;
+    min-height: 570px;
+    color: black;
+    padding: 15px;
+    text-align: justify;
+    position: relative;
+}
+
+
+#rodape{
+    background-color: #2F6679;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    color: #000000;
+    font-family: monospace;
+}
+

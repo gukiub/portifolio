@@ -1,0 +1,118 @@
+/*não mexa nisso*/
+
+@keyframes open{
+    from {left: -200px;}
+    to {left: 0px;}
+}
+/* colocar uma fonte personalizada no menu*/
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+*{
+    text-decoration: none;
+}
+header{
+    background-color:#1E5490;
+    color: white;
+    height: 80px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1000;    
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 2% 33%;
+    overflow: hidden;
+}
+
+nav{
+    background-color: #eeeeee;
+    color: dodgerblue;
+    width: 150px;
+    float: left;
+    min-height: calc(100% + 40px);
+    padding: 0;
+    display: none;
+    animation: open normal;
+    animation-duration: 1.2s;
+    position: fixed;
+}
+
+main{
+    background-color: #6BBEB5;
+    color: white;
+    min-height: 100%;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: justify;
+    font-family: arial;
+    font-size: 18px;
+    
+}
+
+#transparente{
+    background-color: white;
+    margin: 34% 0% 3% 18%;
+    opacity: 0.5;
+    width: 800px;
+    min-height: 300px;
+    color: black;
+    padding: 15px;
+    
+}
+
+#texto{
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+#rodape{
+    background-color: #2F6679;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 15px;
+    color: #2525ad;
+    font-size: 18px;
+}
+
+nav ul li:hover{
+    background: skyblue;
+}
+
+header img{
+    margin-top: -10px;
+    
+}
+
+
+nav ul li:hover nav{
+    background: skyblue;
+    
+}
+
+#butao{
+    width: 50px;
+    height: 50px;
+    margin: -10px -10px;
+    position: fixed;
+}
+

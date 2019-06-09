@@ -1,0 +1,36 @@
+select * from funcionario;
+
+select nome, salario from funcionario;
+
+select nome, salario from funcionario order by nome asc; //ascendente
+
+select nome, salario from funcionario order by nome desc;
+
+select nome "NOME FUNCIONARIO", DT_ADMISSAO"admissao" from funcionario order by nome desc; // altera nome na exibição
+
+select Nome, salario from funcionario;
+
+select distinct nome from funcionario; // não exibe salários repetidos
+
+select nome, salario "salario do funcionario" from funcionario  where salario > 5000 order by salario desc; // mostrar salarios maiores que 5000 em ordem decrescente.
+
+update  funcionario  set salario = salario +  100;
+commit;
+
+
+select * from funcionario; // alterar valor do salario
+
+insert into funcionario 
+values (5, 'renata', 7500.99 , '22/07/2012', 'a');
+
+insert into funcionario 
+values (6, 'leandro', 3456.00 , '28/07/2012', 'c');
+commit;
+
+
+
+savepoint recupera1;
+
+delete from funcionario where matricula = 6;
+
+ROLLBACK to recupera1;

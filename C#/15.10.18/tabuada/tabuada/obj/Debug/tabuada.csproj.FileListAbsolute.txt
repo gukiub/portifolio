@@ -1,0 +1,10 @@
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.csprojAssemblyReference.cache
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.CalculadoraTabuada.resources
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.Properties.Resources.resources
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.csproj.GenerateResource.cache
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.csproj.CoreCompileInputs.cache
+E:\Uninove\15.10.18\tabuada\tabuada\bin\Debug\tabuada.exe.config
+E:\Uninove\15.10.18\tabuada\tabuada\bin\Debug\tabuada.exe
+E:\Uninove\15.10.18\tabuada\tabuada\bin\Debug\tabuada.pdb
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.exe
+E:\Uninove\15.10.18\tabuada\tabuada\obj\Debug\tabuada.pdb

@@ -1,0 +1,20 @@
+.box{
+    border: 1px dotted grey;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    width: 600px;
+    min-height: 200px;
+    background: #ccf;
+}
+
+.resultado{
+    border: 1px solid #66f;
+    min-height: 100px;
+    background: white;
+}
+
+button{
+    font-size: 22px;
+    margin: 5px;
+    background: yellow;
+}

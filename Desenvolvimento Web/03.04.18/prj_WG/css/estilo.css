@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#topo{
+    background-color:#1E5490;
+    color: white;
+    height: 80px;
+    /*height é altura*/
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1000;    
+    box-shadow: 0px 6px 5px rgba(0,0,0,0.9);
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+#menu{
+    background-color: #eeeeee;
+    color: dodgerblue;
+    width: 150px;
+    float: left;
+    min-height: 100%;
+    padding: 10px;
+}
+
+#conteudo{
+   background-color: #6BBEB5;
+    color: white;
+    /* calc(100% + 100px;)*/
+    min-height: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+#rodape{
+    background-color: #2F6679;
+    color: white;
+    height: 100px;
+    padding: 15px;
+}
+
+#menu ul{
+    /*border: 1px solid red;*/
+    padding: 0;
+}
+
+#menu ul li{
+    /*border: 1px dotted yellow;*/
+    list-style: none;
+    padding: 5px;
+    color: #2525ad;
+}
+
+#menu ul li:hover{
+    background: skyblue;
+}

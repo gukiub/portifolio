@@ -1,0 +1,10 @@
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.csprojAssemblyReference.cache
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.LeitorNumerosAleatórios.resources
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.Properties.Resources.resources
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.csproj.GenerateResource.cache
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.csproj.CoreCompileInputs.cache
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\bin\Debug\LeitorNumerosAleatorios.exe.config
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\bin\Debug\LeitorNumerosAleatorios.exe
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\bin\Debug\LeitorNumerosAleatorios.pdb
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.exe
+E:\Uninove\15.10.18\LeitorNumerosAleatorios\LeitorNumerosAleatorios\obj\Debug\LeitorNumerosAleatorios.pdb

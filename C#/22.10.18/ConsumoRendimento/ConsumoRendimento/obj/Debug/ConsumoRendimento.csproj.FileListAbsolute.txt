@@ -1,0 +1,17 @@
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\bin\Debug\ConsumoRendimento.exe.config
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\bin\Debug\ConsumoRendimento.exe
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\bin\Debug\ConsumoRendimento.pdb
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.csprojAssemblyReference.cache
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.Form1.resources
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.Properties.Resources.resources
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.csproj.GenerateResource.cache
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.csproj.CoreCompileInputs.cache
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.exe
+E:\Uninove\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.pdb
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.csprojAssemblyReference.cache
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.Form1.resources
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.Properties.Resources.resources
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.csproj.GenerateResource.cache
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.csproj.CoreCompileInputs.cache
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.exe
+F:\Uninove\C#\22.10.18\ConsumoRendimento\ConsumoRendimento\obj\Debug\ConsumoRendimento.pdb

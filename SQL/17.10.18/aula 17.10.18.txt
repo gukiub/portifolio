@@ -1,0 +1,35 @@
+insert into funcionario values(5, 'Pedro Alcantara', 2500, '10/08/2005', 'C');
+
+insert into funcionario values(6, 'Thamires Silva', 2500, '01/07/1999', 'B');
+
+select * from funcionario where nome LIKE 'Th%';
+
+select * from funcionario where matricula != 1 AND comissao not in ('A');
+
+select dt_admissao, dt_admissao + 250 "Data de demissão" from funcionario;
+
+select dt_admissao, dt_admissao + 250 "Data de demissão", sysdate from funcionario;
+
+select nome, sysdate, dt_admissao, trunc (sysdate - dt_admissao) "batata" from funcionario where matricula < 4;
+
+select * from funcionario where dt_admissao between '01/01/1999' and '31/12/2005';
+
+select * from funcionario where dt_admissao >= '01/01/1999' and dt_admissao <= '31/12/2005';
+
+select dt_admissao, next_day (dt_admissao, 'segunda') from funcionario;
+
+select dt_admissao, last_day (dt_admissao) from funcionario;
+
+select nome, to_char(dt_admissao, 'dd, month yyyy')"Admissão" from funcionario;
+
+select nome, to_char(dt_admissao, 'fmdd, month yyyy')"Admissão" from funcionario;
+
+select matricula || ' - ' || nome from funcionario;
+
+select AVG(salario) media, max(salario) maior, min(salario) menor, sum(salario) somatoria from funcionario;
+
+select avg(salario) "Média salarial" from funcionario where dt_admissao between '01/01/1999' and '31/12/2005'; 
+
+select count(nome) from funcionario;
+
+select count(nome) from funcionario where salario >= 3000;

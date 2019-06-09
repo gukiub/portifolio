@@ -1,0 +1,13 @@
+E:\teste_framework\teste_framework\bin\Debug\teste_framework.exe.config
+E:\teste_framework\teste_framework\bin\Debug\teste_framework.exe
+E:\teste_framework\teste_framework\bin\Debug\teste_framework.pdb
+E:\teste_framework\teste_framework\obj\Debug\teste_framework.csprojResolveAssemblyReference.cache
+E:\teste_framework\teste_framework\obj\Debug\teste_framework.exe
+E:\teste_framework\teste_framework\obj\Debug\teste_framework.pdb
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\bin\Debug\teste_framework.exe.config
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\bin\Debug\teste_framework.exe
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\bin\Debug\teste_framework.pdb
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\obj\Debug\teste_framework.csprojAssemblyReference.cache
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\obj\Debug\teste_framework.csproj.CoreCompileInputs.cache
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\obj\Debug\teste_framework.exe
+E:\Uninove\C#\24.09.18\teste_framework\teste_framework\obj\Debug\teste_framework.pdb

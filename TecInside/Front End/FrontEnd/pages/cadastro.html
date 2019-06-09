@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <Title>Tec-Inside Call System</Title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/btn.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <link rel="stylesheet" href="../css/chatbox.css">
+
+    <link rel="icon" type="image/jpg" href="../Content/img/tec05.png" />
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mt-3" href="#"><img src="../../img/tec05.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cadastro</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <h6 class="mr-2">Login</h6>
+                <input class="form-control mr-sm-2" type="text" ng-model="users.Name" placeholder="Email...">
+                <input class="form-control mr-sm-2" type="password" ng-model="users.Password" placeholder="Password...">
+                <button class="btn btn-outline-primary my-2 my-sm-0" ng-click="logar.acceptlogin(users)" type="submit"><i
+                        class="fas fa-sign-in-alt"></i></button>
+            </form>
+        </div>
+    </nav>
+
+
+    <!------------------------------------------------------------------------------------------------------->
+
+    <div class="mt-5">
+        <div class="container jumbotron black">
+            <div class="form-group row mt-5">
+
+            </div>
+            <div class="form-group row">
+
+                <div class="col-8">
+                    <label>Nome:</label>
+                    <input class="form-control" type="text">
+                </div>
+
+                <div class="col-4">
+                    <label>CPF:</label>
+                    <input class="form-control" type="number" placeholder="xxx.xxx.xxx-xx">
+                </div>
+            </div>
+            <div class="form-group row mt-5">
+                <div class="col-6">
+                    <label>Email:</label>
+                    <input class="form-control" type="email" value="MeuPênis@example.com" id="example-email-input">
+                </div>
+
+
+                <div class="col-6">
+                    <label>Telefone:</label>
+                    <input class="form-control" type="tel" value="(XX) 5555-5555">
+                </div>
+            </div>
+
+            <div class="form-group row mt-5">
+                <div class="col-6">
+                    <label>Senha:</label>
+                    <input class="form-control" type="password">
+                </div>
+
+
+                <div class="col-6">
+                    <label>Confirma sua Senha:</label>
+                    <input class="form-control" type="password">
+                </div>
+            </div>
+
+            <div class="form-group row mt-5">
+                <div class="col-6">
+                    <label>UF</label>
+                    <select class="form-control">
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+
+                </div>
+
+
+                <div class="col-6">
+                    <label>Cidade</label>
+                    <input class="form-control" type="text">
+                </div>
+            </div>
+
+
+
+            <div class="row mt-5 ml-2">
+                <button class="btn btn-outline-success btn-success">CADASTRAR</button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------- -->
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper-utils.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/angular/angular.min.js"></script>
+</body>
+
+</html>

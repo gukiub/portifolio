@@ -1,0 +1,30 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+main{
+    width: 800px;
+    min-height: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+#resposta{
+	border: 1px solid black;
+	min-height: 250px;
+	background: white;
+    padding: 15px;
+}
+
+#criancas{
+    width: 166px;
+}
+
+#mulheres{
+    width: 160px;
+}

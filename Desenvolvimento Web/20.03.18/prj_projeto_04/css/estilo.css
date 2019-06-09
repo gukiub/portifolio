@@ -1,0 +1,29 @@
+body{
+	background-image:url(../imagens/morangos.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#topo{
+margin: 0 auto;
+border: 1px solid #000;
+padding: 0 auto;
+background-color: #A71616;
+}
+
+#cardapio{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(255,255,255,0.8);
+margin: 50px auto 50px auto;
+min-height: 500px;
+color: red;
+font-size: 18px;
+padding: 5px 15px 5px 15px;
+}
+
+.salada{
+	color: #339933;
+	font-family: "arial";
+}

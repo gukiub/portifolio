@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+*{
+    text-decoration: none;
+}
+#topo{
+    background-color:#1E5490;
+    color: white;
+    height: 80px;
+    /*height é altura*/
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1000;    
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#menu{
+    background-color: #eeeeee;
+    color: dodgerblue;
+    width: 150px;
+    float: left;
+    min-height: calc(100% + 40px);
+    padding: 0;
+}
+
+#conteudo{
+   background-color: #6BBEB5;
+    color: white;
+    min-height: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+    padding: 20px;
+    text-align: justify;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#rodape{
+    background-color: #2F6679;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu ul{
+    padding: 0;
+}
+
+#menu ul li{
+    list-style: none;
+    padding: 15px;
+    color: #2525ad;
+    font-size: 18px;
+    font-family: 'Jua', sans-serif;
+    
+}
+
+#menu ul li:hover{
+    background: skyblue;
+}
+
+.azul{
+    color: blue;
+}
+
+.laranja{
+    color: orange;
+}
+
+.verde{
+    color:green;
+}
+

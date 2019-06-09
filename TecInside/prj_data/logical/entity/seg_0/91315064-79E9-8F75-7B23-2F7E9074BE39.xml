@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91315064-79E9-8F75-7B23-2F7E9074BE39" name="Funcionario">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:54:32 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_fun" id="D87F0A37-A236-9E7A-AC40-059B9BA15815">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:54:44 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="393C67E5-8775-3785-B169-87E9CFB62884">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:54:55 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="7E674573-3DBB-C1BB-BA32-0360823BF26D">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-06 17:47:21 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="5AFFF897-AD70-3ECD-0FEE-959F25BA2177">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-06 17:47:27 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62CBB8A9-5E4F-1351-C4E5-3214774F5BCE" name="Funcionario PK">
+<createdBy>gustavo</createdBy>
+<createdTime>2018-11-03 03:54:51 UTC</createdTime>
+<ownerDesignName>prj_data</ownerDesignName>
+<engineerTo>
+<item key="E41E2929-46AA-EF22-576A-BFF0332F73A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D87F0A37-A236-9E7A-AC40-059B9BA15815</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

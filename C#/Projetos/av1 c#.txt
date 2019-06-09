@@ -1,0 +1,54 @@
+um Caminhão Truck carrega de 12 a 15 toneladas,
+Custo de mão de Obra? (motorista e ajudantes custam um valor fixo de R$ 150,00 por dia)
+
+Duração da Viagem/Serviço em Dias (Carregamento, Viagem, Descarregamento)
+
+Distância em Quilômetros? (devido ao tipo de caminhão, o frete custa algo em torno de R$ 3,89 por Km até 10 toneladas. Acima disso, custa 1% a cada tonelada)
+
+Outras Despesas em R$ (pedágio, balsa, chapa, etc)
+Carga Transportada na Viagem (em Toneladas)?
+
+Margem de Lucro Desejada (em %)
+
+Resultado: valor Custo da viagem calculado, Valor do Frete, o Valor do Lucro, Margem de Lucro (%), Frete calculado Total (por km) e o Valor da Diária.
+
+
+1°valor da diaria
+2°valor do frete
+3°frete total por km
+4°margem de lucro
+5°valor do lucro
+6°custo da viagem
+
+
+Um motorista de caminhão possui um Caminhão Truck, que carrega de 12 a 15 toneladas e precisa de uma nova ferramenta para ajudá-lo na difícil tarefa de negociar de maneira correta e rentável o valor do frete. 
+
+Para isso você foi contratado para desenvolver um aplicativo que permite analisar se o frete é bom ou não. Para realizar o cálculo, o motorista deve informar algumas coisas, e o programa ajuda a calcular os custos baseado nos valores a seguir:
+
+Custo de mão de Obra? 
+(motorista e ajudantes custam um valor fixo de R$ 150,00 por dia) Duração da Viagem/Serviço em Dias (Carregamento, Viagem, Descarregamento) ok
+
+Distância em Quilômetros? (devido ao tipo de caminhão, o frete custa algo em torno de R$ 3,89 por Km até 10 toneladas. Acima disso, custa 1% a cada tonelada) OK
+
+Outras Despesas em R$ (pedágio, balsa, chapa, etc) ok
+
+Carga Transportada na Viagem (em Toneladas)? ok
+
+Margem de Lucro Desejada (em %)ok
+
+O aplicativo deve exibir ao final o valor Custo da viagem calculado, Valor do Frete, o Valor do Lucro, Margem de Lucro (%), Frete calculado Total (por km) e o Valor da Diária.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

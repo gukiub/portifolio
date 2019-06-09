@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketSystem.Api</name>
+    </assembly>
+    <members>
+        <member name="T:TicketSystem.Api.Controllers.BaseController">
+            <inheritdoc />
+        </member>
+        <member name="M:TicketSystem.Api.Controllers.UsersController.Authorize(TicketSystem.Api.Models.AuthModel)">
+            <summary>Authenticate an user.</summary>
+            <param name="auth"></param>
+            <returns> A json object containing the authenticated user info.</returns>
+        </member>
+    </members>
+</doc>
