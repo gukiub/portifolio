@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Assinatura Switch Online",
+      "image_url": "https://www.nintendo.com/content/dam/noa/en_US/images/switch/icon-nso.png",
+      "price": 74.25
+    },
+    {
+      "id": "2",
+      "title": "Assinatura Playstation Plus",
+      "image_url": "https://cdn.awsli.com.br/1000x5000/1571/1571091/arquivos/Cart-o-Psn-Plus-12-Meses-Estados-Unidos.png",
+      "price": 149.99
+    },
+    {
+      "id": "3",
+      "title": "Assinatura Xbox Gold",
+      "image_url": "https://images.colombo.com.br/hotsite/GiftCard/Imagens/giftcard_microsoft.gif",
+      "price": 200
+    }
+  ]
+}
