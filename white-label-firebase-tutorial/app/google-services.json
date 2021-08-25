@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1072190495471:android:a108e003ec50c52b81991a",
+        "mobilesdk_app_id": "1:1072190495471:android:93e9159d68645e3881991a",
         "android_client_info": {
-          "package_name": "br.com.gukiub.whitelabeltutorial.admin"
+          "package_name": "br.com.gukiub.whitelabeltutorial.bike"
         }
       },
       "oauth_client": [
@@ -36,9 +36,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1072190495471:android:93e9159d68645e3881991a",
+        "mobilesdk_app_id": "1:1072190495471:android:82843eb900149ce881991a",
         "android_client_info": {
-          "package_name": "br.com.gukiub.whitelabeltutorial.bike"
+          "package_name": "br.com.gukiub.whitelabeltutorial.bike.admin"
         }
       },
       "oauth_client": [
