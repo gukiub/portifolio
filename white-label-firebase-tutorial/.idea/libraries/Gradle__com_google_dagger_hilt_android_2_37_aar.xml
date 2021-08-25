@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:hilt-android:2.37@aar">
+    <CLASSES>
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-2/files-2.1/dd0ccebe87410ba83ea3696a0c3b468c/hilt-android-2.37/res" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/c537374eb5a2926f247e0cb541f8e07d/transformed/hilt-android-2.37/res" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/a83003c45cfc77fb529159655d6119d0/transformed/hilt-android-2.37/res" />
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/a83003c45cfc77fb529159655d6119d0/transformed/hilt-android-2.37/jars/classes.jar!/" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/a83003c45cfc77fb529159655d6119d0/transformed/hilt-android-2.37/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/modules-2/files-2.1/com.google.dagger/hilt-android/2.37/9462e156cd8e695d768108ce6c62033163c05629/hilt-android-2.37-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/modules-2/files-2.1/com.google.dagger/hilt-android/2.37/227dc9504f0ea1f46089c1e82817dd0590cfc51b/hilt-android-2.37-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test:core:1.4.0@aar">
+    <CLASSES>
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-2/files-2.1/e55a05ec82ac33deab8e873fb0e9fc3d/core-1.4.0/res" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/e9413c0704ff831b3dbfe6d89ded4a1c/transformed/core-1.4.0/res" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/969ccb353d75ab80c9bdc41d56684fd0/transformed/core-1.4.0/res" />
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/969ccb353d75ab80c9bdc41d56684fd0/transformed/core-1.4.0/jars/classes.jar!/" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/969ccb353d75ab80c9bdc41d56684fd0/transformed/core-1.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.4.0/96b4d161def059d92989a352500d05d215c33d5e/core-1.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/modules-2/files-2.1/androidx.test/core/1.4.0/2ba6b5cb5392cc99bdc6fb1f188c95497358fb62/core-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
