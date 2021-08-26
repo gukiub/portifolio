@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-2/files-2.1/5b1d31d15f4048d56b40a90718f6f218/grpc-android-1.28.0/res" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/75814ea32509a30a48a6247dc824ae4e/transformed/grpc-android-1.28.0/res" />
-      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/eb848a53749d8b82ea7d731c5bbba3f0/transformed/grpc-android-1.28.0/jars/classes.jar!/" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/eb848a53749d8b82ea7d731c5bbba3f0/transformed/grpc-android-1.28.0/res" />
-      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/eb848a53749d8b82ea7d731c5bbba3f0/transformed/grpc-android-1.28.0/AndroidManifest.xml" />
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/02835aaa541e8117c9bb30ce71a33081/transformed/grpc-android-1.28.0/jars/classes.jar!/" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/02835aaa541e8117c9bb30ce71a33081/transformed/grpc-android-1.28.0/res" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/02835aaa541e8117c9bb30ce71a33081/transformed/grpc-android-1.28.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://D:/Users/gu_ki/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-android/1.28.0/e7c3f4a90a5862818fc0ff52806ab2b2986bea67/grpc-android-1.28.0-javadoc.jar!/" />

@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-2/files-2.1/b9f48b4175e3f2843a325f430b240f9c/navigation-ui-ktx-2.3.5/res" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/7e2e712ded6155e6ab26f42e457a3ffa/transformed/navigation-ui-ktx-2.3.5/res" />
-      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/da8337bb82b9a11390fa68e8204f34d3/transformed/navigation-ui-ktx-2.3.5/jars/classes.jar!/" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/da8337bb82b9a11390fa68e8204f34d3/transformed/navigation-ui-ktx-2.3.5/res" />
-      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/da8337bb82b9a11390fa68e8204f34d3/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml" />
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/8c415de2ee603390cd1a7d9951ca9a0b/transformed/navigation-ui-ktx-2.3.5/jars/classes.jar!/" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/8c415de2ee603390cd1a7d9951ca9a0b/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/8c415de2ee603390cd1a7d9951ca9a0b/transformed/navigation-ui-ktx-2.3.5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

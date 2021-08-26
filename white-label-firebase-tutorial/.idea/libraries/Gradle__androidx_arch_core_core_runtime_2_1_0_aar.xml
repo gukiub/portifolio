@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-2/files-2.1/81f30e2392150a25f276fd75669d1367/core-runtime-2.1.0/res" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/63adf545b6c487437500f8df43751c26/transformed/core-runtime-2.1.0/res" />
-      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/8861cf15d72bf6b0d7311e8b1ba18c92/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/8861cf15d72bf6b0d7311e8b1ba18c92/transformed/core-runtime-2.1.0/res" />
-      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/8861cf15d72bf6b0d7311e8b1ba18c92/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/2f7e060f446bcd45dbc6f116bcc0a241/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/2f7e060f446bcd45dbc6f116bcc0a241/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/2f7e060f446bcd45dbc6f116bcc0a241/transformed/core-runtime-2.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

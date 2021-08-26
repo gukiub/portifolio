@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-2/files-2.1/75d5a903e3f23071f46dadb00734670f/firebase-common-ktx-20.0.0/res" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/605b9f93d4c969e9ca0e5ef7ae9779b9/transformed/firebase-common-ktx-20.0.0/res" />
-      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/b2ea13f375eb926586e047d1db935abd/transformed/firebase-common-ktx-20.0.0/AndroidManifest.xml" />
-      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/b2ea13f375eb926586e047d1db935abd/transformed/firebase-common-ktx-20.0.0/jars/classes.jar!/" />
       <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/b2ea13f375eb926586e047d1db935abd/transformed/firebase-common-ktx-20.0.0/res" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/534e406147203b139a0ee67f105021bd/transformed/firebase-common-ktx-20.0.0/res" />
+      <root url="jar://D:/Users/gu_ki/.gradle/caches/transforms-3/534e406147203b139a0ee67f105021bd/transformed/firebase-common-ktx-20.0.0/jars/classes.jar!/" />
+      <root url="file://D:/Users/gu_ki/.gradle/caches/transforms-3/534e406147203b139a0ee67f105021bd/transformed/firebase-common-ktx-20.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://D:/Users/gu_ki/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-common-ktx/20.0.0/5807d2d527446d5e8fdf4decd297daf8a0c45cf1/firebase-common-ktx-20.0.0-javadoc.jar!/" />
