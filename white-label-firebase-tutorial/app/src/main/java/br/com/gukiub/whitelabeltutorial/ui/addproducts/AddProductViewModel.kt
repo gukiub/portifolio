@@ -1,4 +1,4 @@
-package br.com.gukiub.whitelabeltutorial.ui.products.addproducts
+package br.com.gukiub.whitelabeltutorial.ui.addproducts
 
 import android.net.Uri
 import android.util.Log

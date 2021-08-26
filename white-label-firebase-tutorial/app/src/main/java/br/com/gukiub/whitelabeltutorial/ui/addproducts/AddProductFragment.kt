@@ -1,14 +1,11 @@
-package br.com.gukiub.whitelabeltutorial.ui.products.addproducts
+package br.com.gukiub.whitelabeltutorial.ui.addproducts
 
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.view.get
-import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.viewModels
 import br.com.douglasmotta.whitelabeltutorial.databinding.AddProductFragmentBinding
 import br.com.gukiub.whitelabeltutorial.util.CurrencyTextWatcher
