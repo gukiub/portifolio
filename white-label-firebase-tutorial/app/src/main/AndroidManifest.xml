@@ -4,13 +4,15 @@
 
     <application
         android:name="br.com.gukiub.whitelabeltutorial.MyApplication"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="${appName}${appNameSuffix}"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhiteLabelTutorial">
-        <activity android:name="br.com.gukiub.whitelabeltutorial.ui.MainActivity">
+        <activity
+            android:name="br.com.gukiub.whitelabeltutorial.ui.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
